@@ -1,0 +1,277 @@
+.Container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.SmallContainer {
+  width: 1213px;
+  height: 854px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.Background1 {
+  top: 671px;
+  left: 53px;
+  width: 1113px;
+  height: 183px;
+  position: absolute;
+}
+.Main {
+  gap: 70px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 100px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.Header {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.user {
+  gap: 16px;
+  width: 327px;
+  height: 208px;
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: rgba(250, 251, 255, 1);
+}
+
+.group1-text {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  font-size: 32px;
+  font-style: Black;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.NavBar {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.group1-frame2 {
+  gap: 8px;
+  width: 327px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(191, 199, 229, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.group1-frame {
+  width: 32px;
+  height: 32px;
+}
+.NavBar-SearchUsersText {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  opacity: 0.70;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.NavBar-Frames {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+.NavBar-Frame1 {
+  gap: 8px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar-Text {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  opacity: 0.80;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.NavBar-Frame2 {
+  gap: 8px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(131, 159, 255, 1);
+}
+.NewUsers {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.Voters {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  opacity: 0.80;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group1-frame6 {
+  gap: 8px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.Editors {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  opacity: 0.80;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group1-frame7 {
+  gap: 8px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.group1-text12 {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  opacity: 0.80;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.UserInfo {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.UserInfoText {
+  gap: 4px;
+  display: flex;
+  padding: 20px 0 0 0;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.UserName {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  font-size: 18px;
+  font-style: Black;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.UserAddress {
+  color: var(--dl-color-default-151b32);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.UserTags {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.UserTag {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+.UserTagInside {
+  gap: 10px;
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+  border-color: rgba(191, 199, 229, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.UserTagText {
+  color: rgba(81, 110, 212, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
